@@ -3,6 +3,10 @@
   height: 100%;
 }
 
+.display-4,
+hed{
+  font-family: 'Dancing Script', cursive;
+}
 #main-header .port-item {
   width: 30%;
 }
@@ -24,7 +28,35 @@
 }
 
 .form-group{
-   width: 60%;
+   width: 100%;
    height: auto;
 }
+
+/* portfolio */
+.project-card__img{
+  width: 100%;
+  height: auto;
+}
+
+ol,ul{
+  list-style: none;
+}
+
+.tags li{
+  display: inline-block;
+  font-size: 14px;
+  line-height: 20px;
+  background-color: #fff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .14);
+  padding: 5px 10px;
+  margin-right: 10px;
+  border-radius: 3px;
+}
+
+.project-card__link{
+  float: right;
+
+}
+
+
 
